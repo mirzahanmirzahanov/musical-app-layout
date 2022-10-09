@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/css/normalize.css">
+	<link rel="stylesheet" href="./assets/css/base-styles.css">
 	<link rel="stylesheet" href="./assets/css/index.css">
 	<title>Index Page</title>
 </head>
+
 <body>
-	<p>sdfsfd</p>
+	<div class="wrapper">
+		<header class="header">
+			<audio class="audio-tag"></audio>
+			<div class="header__container container">
+				<div class="audio-player">
+					<div class="audio-player__switch-buttons">
+						<div class="btn prev img-cont">
+							<img src="./assets/imgs/switch-buttons/prev-btn.png" alt="prev-btn">
+						</div>
+						<div class="btn play img-cont">
+							<img src="./assets/imgs/switch-buttons/play-btn.png" alt="play-btn">
+						</div>
+						<div class="btn next img-cont">
+							<img src="./assets/imgs/switch-buttons/next-btn.png" alt="next-btn">
+						</div>
+					</div>
+					<div class="audio-player__panel">
+						<div class="panel-song-info">
+							<p class="song-name">Евгений Онегин</p>
+							<p class="song-author">kizaru</p>
+						</div>
+						<div class="progress__container">
+							<div class="progress"></div>
+						</div>
+					</div>
+					<div class="audio-player__volume">
+						<div class="volume-icon img-cont">
+							<img src="./assets/imgs/volume-icon/high-sound-icon.png" alt="volume-icon">
+						</div>
+						<div class="volume-container">
+							<div class="volume"></div>
+						</div>
+					</div>
+					<div class="audio-player__additional-buttons">
+						<div class="btn shuffle img-cont">
+							<img src="./assets/imgs/additional-buttons/shuffle-icon.png" alt="shuffle-btn">
+						</div>
+						<div class="btn loop img-cont">
+							<img src="./assets/imgs/additional-buttons/loop-icon.png" alt="loop-btn">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="main"></main>
+		<footer class="footer"></footer>
+	</div>
 </body>
+
 </html>
