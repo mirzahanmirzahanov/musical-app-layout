@@ -23,14 +23,20 @@ body {
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 1400px;
   padding: 0 20px;
   margin: 0 auto;
 }
 
 li,
 a,
-p {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   text-decoration: none;
   list-style: none;
   color: #fff;
